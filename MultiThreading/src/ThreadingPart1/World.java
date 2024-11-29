@@ -1,3 +1,5 @@
+package ThreadingPart1;
+
 public class World extends Thread{
 
     public void run(){
