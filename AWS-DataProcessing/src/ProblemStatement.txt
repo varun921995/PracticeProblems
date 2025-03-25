@@ -1,0 +1,8 @@
+Problem Statement:
+AWS provides cloud-based data storage and processing services. You are designing a system that processes incoming data in a distributed manner.
+
+You have N data nodes, each capable of processing one unit of data per second. The data is stored in an array, where data[i] represents the time required (in seconds) to process the data at node i.
+
+The data is processed in a round-robin fashion across the available K worker threads. Each thread picks up the next available unprocessed data unit and processes it. If a worker is idle, it takes the next available task from the queue.
+
+Find the minimum total time required to process all the data.
